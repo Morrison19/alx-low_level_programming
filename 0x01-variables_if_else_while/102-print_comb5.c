@@ -1,15 +1,13 @@
 #include <stdio.h>
-
 /**
  * main - entr
  * Description - prints all possible combinations of two two-digit numbers.
  * the numbers should range from 0 to 99
  * All numbers should be printed with two digits. 1 should be printed as 01
- * The combinations of numbers should be printed in ascending order using puchar
+ * The combinations of numbers should be printed in ascending order
  * You are not allowed to use any variable of type char
  * Return: 0
  */
-
 int main(void)
 {
 	int i, j;
@@ -44,4 +42,3 @@ int main(void)
 		putchar(10);
 		return (0);
 }
-	
