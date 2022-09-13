@@ -8,6 +8,7 @@
  * Print only the smallest combination of two digits
  * You can only use putchar five times maximum in your code
  * You are not allowed to use any variable of type char
+ * Return: 0
  */
 
 int main(void)
