@@ -1,8 +1,9 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * main - Entry point
- * Description: a function that checks for uppercase character.
+ * _isupper - check for uppercase character
+ * @c: Variable text
  * Return: 0
  */
 
