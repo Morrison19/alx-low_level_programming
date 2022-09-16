@@ -2,9 +2,8 @@
 
 /**
  * print_most_numbers - Entry point
- * Description: prints the numbers, from 0 to 9
- * do not print 2 and 4
- * Return: 0
+ * Description: prints the numbers with _putchar
+ * Return: void
  */
 
 void print_most_numbers(void)
@@ -16,9 +15,7 @@ void print_most_numbers(void)
 		if (number == '2' || number == '4')
 			;
 		else
-		{
 			_putchar(number);
-		}
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
