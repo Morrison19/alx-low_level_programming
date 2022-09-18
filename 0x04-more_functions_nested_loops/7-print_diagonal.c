@@ -1,7 +1,7 @@
 #include "main.h"
+
 /**
  * print_diagonal - Entry point
- *
  * Description: A function that draws a diagonals
  * @n: number of spaces
  * Return: void
