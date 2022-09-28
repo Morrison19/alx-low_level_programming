@@ -9,13 +9,14 @@
 
 char *_strpbrk(char *s, char *accept)
 {
+	char *str = s;
 	int i;
 
 	do {
-		s++;
+		str++;
 		for (i = 0; *(accept + i) != '\0'; i++)
-			if (*s == *(accept + i))
-				return (s);
-	} while (*s != '\0')
+			if (*str == *(accept + i))
+				return (str);
+	} while (*str != '\0')
 	return (0);
 }
