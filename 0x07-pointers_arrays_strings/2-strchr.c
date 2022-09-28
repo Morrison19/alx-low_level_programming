@@ -16,6 +16,6 @@ char *_strchr(char *s, char c)
 		a++;
 		if (*a == c)
 			return (a);
-	} while (*a != '\0')
+	} while (*a != '\0');
 	return (0);
 }
