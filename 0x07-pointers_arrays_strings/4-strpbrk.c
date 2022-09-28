@@ -17,6 +17,6 @@ char *_strpbrk(char *s, char *accept)
 		for (i = 0; *(accept + i) != '\0'; i++)
 			if (*str == *(accept + i))
 				return (str);
-	} while (*str != '\0')
+	} while (*str != '\0');
 	return (0);
 }
