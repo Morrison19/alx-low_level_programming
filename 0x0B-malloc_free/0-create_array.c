@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * create_array - creates an array of char
+ * *create_array - creates an array of char
  * and initializes it with specific char
- * @size: size of the array to create 
+ * @size: size of the array to create
  * @c: char to initialize the array c
-
+ *
  * Return: pointer to the array, or NULL if it fails
  */
 
@@ -29,7 +29,7 @@ char *create_array(unsigned int size, char c)
 		i++;
 	}
 
-	*(b + 1) = '\0';
+	*(b + i) = '\0';
 
 	return (b);
 }
